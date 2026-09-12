@@ -40,6 +40,11 @@ cores, and verify it end to end.
 | [`scripts/new-plugin.sh`](scripts/new-plugin.sh) | Materializes both templates with your plugin's name. |
 | [`reference/`](reference/) | Worked example: the LiveKit teleconsultation plugin, start to finish. |
 
+The screening-programme scope in issue #25 is captured in
+[`reference/care-screening-brief.md`](reference/care-screening-brief.md). It is an
+implementation brief for a separate `care_screening` / `care_screening_fe` plugin pair,
+not application code added to this scaffold repository.
+
 ## The prime directive
 
 > **Minimal overlap with core.**
